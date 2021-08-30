@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Joi = require('joi');
 const config = require('config');
 const jwt = require('jsonwebtoken');
-const { memberSchema } = require('./member');
+const { productSchema } = require('./product');
 
 const memberSchema = new mongoose.Schema({
     name: { type: String, required: true, minlength: 2, maxlenght: 50 },
