@@ -18,8 +18,13 @@
   },
   "homepage": "https://github.com/JonathanT10/MicroFarmsBack#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
     "nodemon": "^2.0.12"
   }
 }
